@@ -108,7 +108,6 @@ multiVoicedPolly.synthesizeSpeech(inputFilename, outputFilename).then();
         {
             "Effect": "Allow",
             "Action": [
-                "s3:GetObject",
                 "lambda:InvokeFunction"
             ],
             "Resource": [
